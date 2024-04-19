@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>First Page</title>
+    </head>
+    <body>
+        <h1> 
+            Hello This Is Abhinav 
+        </h1>
+        <ul>
+            {% for x in mymembers %}
+              <li>{{ x.firstname }} {{ x.lastname }}</li>
+            {% endfor %}
+          </ul>
+          
+        <h4>The name is {{ mymembers.0.firstname }}</h4>
+    </body>
+</html>
