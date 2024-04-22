@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
+    text-decoration: none;
   }
 body{
     display: flex;
@@ -283,3 +284,5 @@ body{
     height: 23px;
     margin-left: 2%;
 }
+
+
