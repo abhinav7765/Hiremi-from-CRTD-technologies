@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiremi</title>
+  <link rel="stylesheet" href="../static/dashboard.css">
+  <link rel="stylesheet" href="../static/profile.css">
+</head>
+
+<body>
+  <div class="menu-hero">
+    <div class="logo">
+      <img src="../static/images/icon.png" alt="">
+      <h3>Super Admin</h3>
+    </div>
+    <div class="menu">
+     <a href="#"> <div class="option" ><img src="../static/images/home.png" alt="">Dashboard</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/analytics.png" alt="">Analytics</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/downloadPhone.png" alt="">App Download Status</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/hat.png" alt="">Mentorship</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/internTraining.png" alt="">Internship</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/office-worker.png" alt="">Fresher</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/suitecase.png" alt="">Experience</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/training.png" alt="">Corporate Training</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/online-learning.png" alt="">Courses</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/tasks.png" alt="">Project Report</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/account.png" alt="">Admin Settings</div></a>
+     <a href="../templates/login.html"> <div class="option"><img src="../static/images/logout.png" alt="">Logout</div></a>
+    </div>
+  </div>
+  <div class="dashboard" style="padding-top: 5vh;">
+   <a href="#"><div class="backButton"><img src="../static/images/arrowleft.png" alt=""></div></a>
+    <div class="edit-hero">
+        <h1>Edit Profile</h1>
+        <div class="row2">
+          <div class="input-container" style="width: 400px;">
+            <label for="name">Full Name :</label>
+            <input type="text" id="name" name="name" placeholder="Rishu">
+          </div>
+          <div class="input-container right" style="width: 215px;">
+            <label for="dob">Date Of Birth :</label>
+            <input type="date" id="dob" name="dob" placeholder="03-Aug-2003">
+          </div>
+        </div>
+        <div class="row2">
+          <div class="input-container" style="width: 400px;">
+            <label for="email">E-Mail :</label>
+            <input type="text" id="email" name="email" placeholder="hiremi@gmail.com">
+          </div>
+          <div class="input-container right" style="width: 195px;">
+            <label for="gender">Gender :</label>
+            <input type="text" id="gender" name="gender" placeholder="Male">
+          </div>
+        </div>
+        <div class="row2">
+          <div class="input-container" style="width: 300px;">
+            <label for="number">Phone Number :</label>
+            <input type="tel" id="number" name="number" placeholder="81022*******">
+          </div>
+          <div class="input-container right" style="width: 300px;">
+            <label for="wnumber">WhatsAapp Number :</label>
+            <input type="tel" id="wnumber" name="wnumber" placeholder="">
+          </div>
+        </div>
+        <div class="row2">
+          <div class="input-container" style="width: 400px;">
+            <label for="fname">Father’s Name :</label>
+            <input type="text" id="fname" name="fname" placeholder="">
+          </div>
+          <div class="input-container right" style="width: 400px;">
+            <label for="birth-place">Birth Place :</label><div  style="display:flex; flex-direction: row;">
+            <input type="text" id="birth-place" name="birth-place" placeholder="" style="width: 45%; margin-right: 10%;">
+            <input type="text" id="birth-place2" name="birth-place" placeholder="" style="width: 45%;"></div>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="input-container" style="width: 400px;">
+            <label for="colg-name">College Name :</label>
+            <input type="text" id="colg-name" name="colg-name" placeholder="">
+          </div>
+          <div class="input-container right" style="width: 300px;">
+            <label for="colg-state">College State :</label>
+            <input type="text" id="colg-state" name="colg-state" placeholder="E.g. Madhya Pradesh">
+                  </div>
+        </div>
+        <div class="row2">
+          <div class="input-container" style="width: 300px;">
+            <label for="branch">Branch :</label>
+            <input type="text" id="branch" name="branch" placeholder="">
+          </div>
+          <div class="input-container right" style="width: 260px;">
+            <label for="pass-year">Passing Year :</label>
+            <input type="text" id="pass-year" name="pass-year" placeholder="2025">
+          </div>
+        </div>
+        <div class="row2">
+          <div class="input-container" style="width: 400px;">
+            <label for="colg-id">College ID / UAN No.  :</label>
+            <input type="text" id="colg-id" name="colg-id" placeholder="0111it211***">
+          </div>
+          <div class="input-container right" style="width: 260px;">
+            <label for="int-domain">Interested Domain :</label>
+            <input type="text" id="int-domain" name="int-domain" placeholder="">
+          </div>
+        </div>
+        <div class="row2">
+          <div class="input-container" style="width: 400px;">
+            <label for="com-rate">Communication Rate :</label>
+            <p class="rating" ><span class="rectangle active">1</span><span class="rectangle active">2</span><span class="rectangle active">3</span><span class="rectangle">4</span><span class="rectangle">5</span></p>
+          </div>
+          <div class="input-container right" style="width: 260px;">
+            <label for="key-skills">Key Skills :</label>
+            <input type="text" id="key-skills" name="key-skills" placeholder="">
+          </div>
+        </div>
+        <div class="input-container">
+          <label for="des-exp"> Describe Your Experience :</label>
+            <textarea id="des-exp" name="des-exp" placeholder=""></textarea>
+        </div>
+        <div class="input-container">
+          <label for="comp-rev">Company Review :</label>
+            <textarea id="comp-rev" name="comp-rev"  placeholder="" ></textarea>
+        </div>
+        <input type="button" class="btn3"  value="submit">
+
+    </div>
+</div>
+</body>
+</html>
