@@ -213,6 +213,7 @@ margin: 10px 0px;
   font-size: 16px;
   padding: 10px 20px;
   margin:10px 0px;
+  outline: none;
 }
 .edit-hero textarea{
   height: 160px;
@@ -242,4 +243,57 @@ border-radius: 20px;
   font-size: 24px;
   background: linear-gradient(180deg, #BD232B 0%, #F13640 0.01%, #BD2930 100%);
   align-self: center;
+}
+.profile-info{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 22px;
+  margin: 5%;
+  padding: 2% 3%;
+}
+.account-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px; 
+  font-weight: 600;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.p-fill-vertical{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+ 
+}
+.p-fill-vertical p{
+  margin: auto 0;
+}
+.per-info{
+display: flex;
+flex-direction: column;
+}
+.per-info label{
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0.1em;
+text-align: left;
+margin: 30px 0;
+
+}
+.per-info input{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0.1em;
+text-align: left;
+border: none;
+width: 40%;
+border-bottom: #000 1px solid;
+outline: none;
+
 }

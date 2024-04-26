@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hiremi</title>
+  <link rel="stylesheet" href="../static/dashboard.css">
+  <link rel="stylesheet" href="../static/profile.css">
+</head>
+
+<body>
+  <div class="menu-hero">
+    <div class="logo">
+      <img src="../static/images/icon.png" alt="">
+      <h3>Super Admin</h3>
+    </div>
+    <div class="menu">
+     <a href="#" style="background-color: rgba(255, 255, 255, 0.5);border-left: #fff 3px solid;"> <div class="option" ><img src="../static/images/home.png" alt="">Dashboard</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/analytics.png" alt="">Analytics</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/downloadPhone.png" alt="">App Download Status</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/hat.png" alt="">Mentorship</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/internTraining.png" alt="">Internship</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/office-worker.png" alt="">Fresher</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/suitecase.png" alt="">Experience</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/training.png" alt="">Corporate Training</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/online-learning.png" alt="">Courses</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/tasks.png" alt="">Project Report</div></a>
+     <a href="#"> <div class="option"><img src="../static/images/account.png" alt="">Admin Settings</div></a>
+     <a href="../templates/login.html"> <div class="option"><img src="../static/images/logout.png" alt="">Logout</div></a>
+    </div>
+  </div>
+
+    <div class="dashboard">
+        <div class="profile-info">
+            <div class="account-info">
+              <h1>Account Information</h1>
+              <div class="pfp" style="width: 35%;">
+              <img src="../static/images/profile.png" alt="">
+              <p style="font-size: 18px;
+              font-weight: 700;
+              margin: 0;
+              letter-spacing: 2px;
+              ">UTR No.</p>
+              <p style="font-size: 18px;
+              margin: 10px;
+              font-weight: 600;
+              letter-spacing: 2px;
+              ">6281631911</p>
+              <p style="font-size: 14px;
+              font-weight: 600;
+              letter-spacing: 2px;
+              ">Applied Date: 14-May-2024</p>
+            </div>
+            <div class="p-fill-vertical">
+              <p>Name :</p>
+              <p>E-Mail :</p>
+              <p>Date of birth :</p>
+              <p>Gender :</p>
+              <p>Status : <span class="oval verified"> Verified</span></p>              
+            </div>
+            </div>
+            <div class="per-info">
+              <h1>Personal Information</h1>
+                <label for="fname">Father’s Name : </label>
+                <div style="display: flex; flex-direction: row; justify-content: center;">
+                <input type="text" id="fname1" placeholder="First Name" style="margin-right: 20%;">
+                <input type="text" id="fname2" placeholder="Last Name">
+              </div>
+              <label for="fname">Birth Place :  </label>
+              <div style="display: flex; flex-direction: row; justify-content: center;">
+              <input type="text" id="fstate1" placeholder="State" style="margin-right: 20%;">
+              <input type="text" id="city1" placeholder="city">
+            </div>
+            <label for="number">Contact Number : </label>
+            <div style="display: flex; flex-direction: row; justify-content: center;">
+            <input type="tel" id="pnumber" placeholder="Phone No." style="margin-right: 20%;">
+            <input type="tel" id="wnumber" placeholder="WhatsApp No.">
+          </div>
+            </div>
+            <div class="per-info">
+              <h1 style="margin-top: 40px;">College Information</h1>
+                <label for="colg-name">College Name :  </label>
+                <input type="text" id="colg-name" placeholder="E.g. TIT" style="width: 100%;">
+           
+              <label for="colg-state">College State :   </label>
+              <div style="display: flex; flex-direction: row; justify-content: center;width: 100%;">
+              <input type="text" id="state2" placeholder="E.g. Bhopal" style="margin-right: 20%;">
+              <input type="text" id="city2" placeholder="city">
+            </div>
+              <div style="display: flex; flex-direction: row; justify-content: center;">
+            <div style="display: flex; flex-direction: column;width: 40%;margin-right: 20%;">
+                <label for="branch">Branch : </label>
+            <input type="text" id="branch" placeholder="E.g. - IT" style="width: 100%;">
+          </div>
+          <div style="display: flex; flex-direction: column;width: 40%;">
+            <label for="pass-year">Passing Year :  </label>
+        <input type="number" id="pass-year" placeholder="2025" style="width: 100%;">
+      </div>
+          </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
