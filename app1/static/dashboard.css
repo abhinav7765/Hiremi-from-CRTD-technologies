@@ -238,7 +238,7 @@ body{
 
 .table th,
 .table td {
-    padding: 18px;
+    padding: 18px 45px;
     font-weight: bold;
     text-align: center;
     width: fit-content;
